@@ -275,13 +275,16 @@ function App() {
     Send Inquiry
   </button>
 </form>
+
+    </div>
+  </div>
 </section>
 
-      <footer className="text-center py-8 border-t border-slate-800">
-        © 2026 NextGen Infra. All Rights Reserved.
-      </footer>
-    </div>
-  );
+<footer className="text-center py-8 border-t border-slate-800">
+  © 2026 NextGen Infra. All Rights Reserved.
+</footer>
+</div>
+);
 }
 
 export default App;
