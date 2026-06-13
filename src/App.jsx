@@ -226,41 +226,55 @@ function App() {
 </a>
       </div>
 
-      <form className="space-y-4">
-        <input
-          type="text"
-          placeholder="Your Name"
-          className="w-full p-3 rounded bg-slate-800 border border-slate-700"
-        />
+     <form
+  action="https://api.web3forms.com/submit"
+  method="POST"
+  className="space-y-4"
+>
+  <input
+    type="hidden"
+    name="access_key"
+    value="e5977293-aa43-49c9-9650-3f3fa0a45b71"
+  />
 
-        <input
-          type="email"
-          placeholder="Your Email"
-          className="w-full p-3 rounded bg-slate-800 border border-slate-700"
-        />
+  <input
+    type="text"
+    name="name"
+    placeholder="Your Name"
+    required
+    className="w-full p-3 rounded bg-slate-800 border border-slate-700"
+  />
 
-        <input
-          type="text"
-          placeholder="Company Name"
-          className="w-full p-3 rounded bg-slate-800 border border-slate-700"
-        />
+  <input
+    type="email"
+    name="email"
+    placeholder="Your Email"
+    required
+    className="w-full p-3 rounded bg-slate-800 border border-slate-700"
+  />
 
-        <textarea
-          rows="5"
-          placeholder="Describe your requirement..."
-          className="w-full p-3 rounded bg-slate-800 border border-slate-700"
-        ></textarea>
+  <input
+    type="text"
+    name="company"
+    placeholder="Company Name"
+    className="w-full p-3 rounded bg-slate-800 border border-slate-700"
+  />
 
-        <button
-          type="submit"
-          className="bg-cyan-500 hover:bg-cyan-600 px-6 py-3 rounded-lg font-semibold"
-        >
-          Send Inquiry
-        </button>
-      </form>
+  <textarea
+    name="message"
+    rows="5"
+    placeholder="Describe your requirement..."
+    required
+    className="w-full p-3 rounded bg-slate-800 border border-slate-700"
+  ></textarea>
 
-    </div>
-  </div>
+  <button
+    type="submit"
+    className="bg-cyan-500 hover:bg-cyan-600 px-6 py-3 rounded-lg font-semibold"
+  >
+    Send Inquiry
+  </button>
+</form>
 </section>
 
       <footer className="text-center py-8 border-t border-slate-800">
