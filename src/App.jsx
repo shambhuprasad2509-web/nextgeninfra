@@ -45,12 +45,12 @@ function App() {
     </p>
 
     <h1 className="text-5xl md:text-7xl font-bold mb-6">
-      Enterprise Cloud,
-      <br />
-      Server & Network
-      <br />
-      Solutions
-    </h1>
+  Enterprise IT Infrastructure,
+  <br />
+  Cloud Services &
+  <br />
+  Bulk Hardware Procurement
+</h1>
 
     <p className="text-xl text-slate-200 max-w-3xl mx-auto mb-8">
       Helping businesses in the USA, United Kingdom, Canada and Italy
