@@ -347,7 +347,7 @@ function App() {
   <input
     type="text"
     name="name"
-    placeholder="Your Name"
+    placeholder="👤 Full Name"
     required
     className="w-full p-3 rounded bg-slate-800 border border-slate-700"
   />
@@ -355,7 +355,15 @@ function App() {
   <input
     type="email"
     name="email"
-    placeholder="Your Email"
+    placeholder="📧 Business Email"
+    required
+    className="w-full p-3 rounded bg-slate-800 border border-slate-700"
+  />
+
+  <input
+    type="tel"
+    name="mobile"
+    placeholder="📱 Mobile / WhatsApp Number"
     required
     className="w-full p-3 rounded bg-slate-800 border border-slate-700"
   />
@@ -363,26 +371,62 @@ function App() {
   <input
     type="text"
     name="company"
-    placeholder="Company Name"
+    placeholder="🏢 Company Name"
     className="w-full p-3 rounded bg-slate-800 border border-slate-700"
   />
+
+  <select
+    name="requirement"
+    required
+    className="w-full p-3 rounded bg-slate-800 border border-slate-700"
+  >
+    <option value="">Select Requirement</option>
+    <option>Bulk Laptop Procurement</option>
+    <option>Desktop Computers</option>
+    <option>Servers & Storage</option>
+    <option>Networking Equipment</option>
+    <option>Firewall Solutions</option>
+    <option>Microsoft 365 Services</option>
+    <option>AWS Cloud Services</option>
+    <option>Data Center Setup</option>
+    <option>CCTV & Security Systems</option>
+    <option>Annual IT Support</option>
+  </select>
+
+  <input
+    type="text"
+    name="quantity"
+    placeholder="📦 Required Quantity (Example: 50 Laptops)"
+    className="w-full p-3 rounded bg-slate-800 border border-slate-700"
+  />
+
+  <select
+    name="budget"
+    className="w-full p-3 rounded bg-slate-800 border border-slate-700"
+  >
+    <option value="">Expected Budget</option>
+    <option>Below ₹1 Lakh</option>
+    <option>₹1 Lakh - ₹5 Lakhs</option>
+    <option>₹5 Lakhs - ₹20 Lakhs</option>
+    <option>₹20 Lakhs - ₹50 Lakhs</option>
+    <option>Above ₹50 Lakhs</option>
+  </select>
 
   <textarea
     name="message"
     rows="5"
-    placeholder="Describe your requirement..."
+    placeholder="📝 Describe your requirement..."
     required
     className="w-full p-3 rounded bg-slate-800 border border-slate-700"
   ></textarea>
 
   <button
     type="submit"
-    className="bg-cyan-500 hover:bg-cyan-600 px-6 py-3 rounded-lg font-semibold"
+    className="w-full bg-cyan-500 hover:bg-cyan-600 py-4 rounded-lg font-bold text-lg transition"
   >
-    Send Inquiry
+    🚀 Request Bulk Quote
   </button>
 </form>
-
     </div>
   </div>
 </section>
