@@ -189,31 +189,76 @@ function App() {
     </div>
 
   </div>
-</section>
-       <section className="px-8 py-16 bg-slate-900">
-  <h2 className="text-4xl font-bold text-center mb-10">
+<section className="px-8 py-16 bg-slate-900">
+  <h2 className="text-4xl font-bold text-center mb-4">
     Brands We Supply
   </h2>
 
-  <div className="grid md:grid-cols-5 gap-5 text-center">
+  <p className="text-center text-slate-300 mb-10">
+    Authorized & Trusted Global IT Brands
+  </p>
 
-    <div>Dell</div>
-    <div>HP</div>
-    <div>Lenovo</div>
-    <div>Cisco</div>
-    <div>Fortinet</div>
+  <div className="grid grid-cols-2 md:grid-cols-5 gap-6">
 
-    <div>MikroTik</div>
-    <div>Ubiquiti</div>
-    <div>APC</div>
-    <div>Samsung</div>
-    <div>Seagate</div>
+    <div className="bg-gradient-to-r from-blue-600 to-blue-800 p-5 rounded-xl text-center font-bold hover:scale-105 transition shadow-lg">
+      Dell
+    </div>
 
-    <div>Canon</div>
-    <div>Epson</div>
-    <div>Brother</div>
-    <div>Logitech</div>
-    <div>D-Link</div>
+    <div className="bg-gradient-to-r from-indigo-600 to-indigo-800 p-5 rounded-xl text-center font-bold hover:scale-105 transition shadow-lg">
+      HP
+    </div>
+
+    <div className="bg-gradient-to-r from-red-600 to-red-800 p-5 rounded-xl text-center font-bold hover:scale-105 transition shadow-lg">
+      Lenovo
+    </div>
+
+    <div className="bg-gradient-to-r from-cyan-600 to-cyan-800 p-5 rounded-xl text-center font-bold hover:scale-105 transition shadow-lg">
+      Cisco
+    </div>
+
+    <div className="bg-gradient-to-r from-green-600 to-green-800 p-5 rounded-xl text-center font-bold hover:scale-105 transition shadow-lg">
+      Fortinet
+    </div>
+
+    <div className="bg-gradient-to-r from-orange-600 to-orange-800 p-5 rounded-xl text-center font-bold hover:scale-105 transition shadow-lg">
+      MikroTik
+    </div>
+
+    <div className="bg-gradient-to-r from-purple-600 to-purple-800 p-5 rounded-xl text-center font-bold hover:scale-105 transition shadow-lg">
+      Ubiquiti
+    </div>
+
+    <div className="bg-gradient-to-r from-yellow-500 to-yellow-700 p-5 rounded-xl text-center font-bold hover:scale-105 transition shadow-lg">
+      APC
+    </div>
+
+    <div className="bg-gradient-to-r from-pink-600 to-pink-800 p-5 rounded-xl text-center font-bold hover:scale-105 transition shadow-lg">
+      Samsung
+    </div>
+
+    <div className="bg-gradient-to-r from-teal-600 to-teal-800 p-5 rounded-xl text-center font-bold hover:scale-105 transition shadow-lg">
+      Seagate
+    </div>
+
+    <div className="bg-gradient-to-r from-red-500 to-red-700 p-5 rounded-xl text-center font-bold hover:scale-105 transition shadow-lg">
+      Canon
+    </div>
+
+    <div className="bg-gradient-to-r from-blue-500 to-blue-700 p-5 rounded-xl text-center font-bold hover:scale-105 transition shadow-lg">
+      Epson
+    </div>
+
+    <div className="bg-gradient-to-r from-violet-600 to-violet-800 p-5 rounded-xl text-center font-bold hover:scale-105 transition shadow-lg">
+      Brother
+    </div>
+
+    <div className="bg-gradient-to-r from-green-500 to-green-700 p-5 rounded-xl text-center font-bold hover:scale-105 transition shadow-lg">
+      Logitech
+    </div>
+
+    <div className="bg-gradient-to-r from-sky-600 to-sky-800 p-5 rounded-xl text-center font-bold hover:scale-105 transition shadow-lg">
+      D-Link
+    </div>
 
   </div>
 </section>
