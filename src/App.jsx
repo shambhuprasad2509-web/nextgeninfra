@@ -148,6 +148,48 @@ function App() {
     </div>
   </div>
 </section>
+
+      <section className="px-8 py-16">
+  <h2 className="text-4xl font-bold text-center mb-10">
+    IT Products We Supply
+  </h2>
+
+  <div className="grid md:grid-cols-4 gap-6">
+
+    <div className="bg-slate-900 p-5 rounded-lg">
+      Laptops & Desktops
+    </div>
+
+    <div className="bg-slate-900 p-5 rounded-lg">
+      Servers & Storage
+    </div>
+
+    <div className="bg-slate-900 p-5 rounded-lg">
+      Routers & Switches
+    </div>
+
+    <div className="bg-slate-900 p-5 rounded-lg">
+      Firewalls
+    </div>
+
+    <div className="bg-slate-900 p-5 rounded-lg">
+      CCTV & Security
+    </div>
+
+    <div className="bg-slate-900 p-5 rounded-lg">
+      Printers
+    </div>
+
+    <div className="bg-slate-900 p-5 rounded-lg">
+      UPS Systems
+    </div>
+
+    <div className="bg-slate-900 p-5 rounded-lg">
+      Monitors & Accessories
+    </div>
+
+  </div>
+</section>
       {/* About */}
 <section id="about" className="px-8 py-16 bg-slate-900">
   <h2 className="text-4xl font-bold mb-6">
