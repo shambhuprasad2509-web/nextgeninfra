@@ -1,15 +1,24 @@
 import datacenter from "./assets/datacenter.jpg";
 function App() {
   const services = [
-    "Cloud Solutions",
-    "AWS EC2 Management",
-    "Microsoft 365 Support",
-    "Windows Server Administration",
-    "Linux Server Administration",
-    "Network & Firewall Management",
-    "HPE & Dell Server Support",
-    "Remote IT Support",
-  ];
+  "Cloud Solutions",
+  "AWS EC2 Management",
+  "Microsoft 365 Support",
+  "Windows Server Administration",
+  "Linux Server Administration",
+  "Network & Firewall Management",
+  "HPE & Dell Server Support",
+  "Remote IT Support",
+
+  "Bulk Laptop Supply",
+  "Desktop Procurement",
+  "Enterprise Server Supply",
+  "Networking Equipment Supply",
+  "IT Peripheral Distribution",
+  "Data Center Hardware",
+  "School & College IT Labs",
+  "Corporate IT Procurement",
+];
 
   return (
     <div className="bg-slate-950 text-white min-h-screen">
