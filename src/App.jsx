@@ -190,6 +190,33 @@ function App() {
 
   </div>
 </section>
+       <section className="px-8 py-16 bg-slate-900">
+  <h2 className="text-4xl font-bold text-center mb-10">
+    Brands We Supply
+  </h2>
+
+  <div className="grid md:grid-cols-5 gap-5 text-center">
+
+    <div>Dell</div>
+    <div>HP</div>
+    <div>Lenovo</div>
+    <div>Cisco</div>
+    <div>Fortinet</div>
+
+    <div>MikroTik</div>
+    <div>Ubiquiti</div>
+    <div>APC</div>
+    <div>Samsung</div>
+    <div>Seagate</div>
+
+    <div>Canon</div>
+    <div>Epson</div>
+    <div>Brother</div>
+    <div>Logitech</div>
+    <div>D-Link</div>
+
+  </div>
+</section>
       {/* About */}
 <section id="about" className="px-8 py-16 bg-slate-900">
   <h2 className="text-4xl font-bold mb-6">
