@@ -53,11 +53,10 @@ function App() {
 </h1>
 
     <p className="text-xl text-slate-200 max-w-3xl mx-auto mb-8">
-      Helping businesses in the USA, United Kingdom, Canada and Italy
-      with cloud infrastructure, Microsoft 365, networking,
-      cybersecurity and server management backed by 20+ years of
-      enterprise IT experience.
-    </p>
+  Serving businesses across India, Asia, USA, UK and Europe with
+  enterprise IT infrastructure services, cloud solutions,
+  networking, cybersecurity, server management and bulk IT hardware procurement.
+</p>
     <div className="mb-8">
   <p className="text-cyan-400 font-semibold text-lg">
     Backed by 20+ Years of Expertise in Cloud, Servers, Networking & Enterprise IT Operations
