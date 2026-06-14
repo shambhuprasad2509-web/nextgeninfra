@@ -117,7 +117,37 @@ function App() {
           ))}
         </div>
       </section>
+<section className="px-8 py-16 bg-slate-900">
+  <h2 className="text-4xl font-bold text-center mb-10">
+    Enterprise IT Hardware Supply
+  </h2>
 
+  <div className="max-w-5xl mx-auto text-center">
+    <p className="text-slate-300 text-lg mb-8">
+      We supply genuine IT hardware and peripherals in bulk quantities
+      for Corporates, Educational Institutions, Government Organizations,
+      Hospitals, Manufacturing Units and System Integrators.
+    </p>
+
+    <div className="grid md:grid-cols-2 gap-6">
+      <div className="bg-slate-800 p-5 rounded-lg">
+        ✔ Bulk IT Procurement
+      </div>
+
+      <div className="bg-slate-800 p-5 rounded-lg">
+        ✔ Enterprise Hardware Supply
+      </div>
+
+      <div className="bg-slate-800 p-5 rounded-lg">
+        ✔ PAN India Delivery
+      </div>
+
+      <div className="bg-slate-800 p-5 rounded-lg">
+        ✔ Competitive Pricing
+      </div>
+    </div>
+  </div>
+</section>
       {/* About */}
 <section id="about" className="px-8 py-16 bg-slate-900">
   <h2 className="text-4xl font-bold mb-6">
