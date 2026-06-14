@@ -262,6 +262,7 @@ function App() {
 
   </div>
 </section>
+</section>
       {/* About */}
 <section id="about" className="px-8 py-16 bg-slate-900">
   <h2 className="text-4xl font-bold mb-6">
