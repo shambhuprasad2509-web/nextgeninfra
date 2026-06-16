@@ -164,9 +164,10 @@ function App() {
   </div>
 </section>
 
-      <section className="px-8 py-16">
+     <div className="px-8 py-16">
   <h2 className="text-4xl font-bold text-center mb-10">
     IT Products We Supply
+    </div>
   </h2>
 
   <div className="grid md:grid-cols-4 gap-6">
