@@ -1,4 +1,19 @@
 import datacenter from "./assets/datacenter.jpg";
+import dell from "./assets/brands/dell.png";
+import hp from "./assets/brands/hp.png";
+import lenovo from "./assets/brands/lenovo.png";
+import cisco from "./assets/brands/cisco.png";
+import fortinet from "./assets/brands/fortinet.png";
+import mikrotik from "./assets/brands/mikrotik.png";
+import ubiquiti from "./assets/brands/ubiquiti.png";
+import apc from "./assets/brands/apc.png";
+import samsung from "./assets/brands/samsung.png";
+import canon from "./assets/brands/canon.png";
+import epson from "./assets/brands/epson.png";
+import logitech from "./assets/brands/logitech.png";
+import dlink from "./assets/brands/dlink.png";
+import intel from "./assets/brands/intel.png";
+import kingston from "./assets/brands/kingston.png";
 function App() {
   const services = [
   "Cloud Solutions",
@@ -189,77 +204,45 @@ function App() {
     </div>
 
   </div>
-<section className="px-8 py-16 bg-slate-900">
+  <section className="px-8 py-16 bg-slate-900">
   <h2 className="text-4xl font-bold text-center mb-4">
     Brands We Supply
   </h2>
 
   <p className="text-center text-slate-300 mb-10">
-    Authorized & Trusted Global IT Brands
+    Trusted Global Technology Partners
   </p>
 
-  <div className="grid grid-cols-2 md:grid-cols-5 gap-6">
+  <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-6">
 
-    <div className="bg-gradient-to-r from-blue-600 to-blue-800 p-5 rounded-xl text-center font-bold hover:scale-105 transition shadow-lg">
-      Dell
-    </div>
-
-    <div className="bg-gradient-to-r from-indigo-600 to-indigo-800 p-5 rounded-xl text-center font-bold hover:scale-105 transition shadow-lg">
-      HP
-    </div>
-
-    <div className="bg-gradient-to-r from-red-600 to-red-800 p-5 rounded-xl text-center font-bold hover:scale-105 transition shadow-lg">
-      Lenovo
-    </div>
-
-    <div className="bg-gradient-to-r from-cyan-600 to-cyan-800 p-5 rounded-xl text-center font-bold hover:scale-105 transition shadow-lg">
-      Cisco
-    </div>
-
-    <div className="bg-gradient-to-r from-green-600 to-green-800 p-5 rounded-xl text-center font-bold hover:scale-105 transition shadow-lg">
-      Fortinet
-    </div>
-
-    <div className="bg-gradient-to-r from-orange-600 to-orange-800 p-5 rounded-xl text-center font-bold hover:scale-105 transition shadow-lg">
-      MikroTik
-    </div>
-
-    <div className="bg-gradient-to-r from-purple-600 to-purple-800 p-5 rounded-xl text-center font-bold hover:scale-105 transition shadow-lg">
-      Ubiquiti
-    </div>
-
-    <div className="bg-gradient-to-r from-yellow-500 to-yellow-700 p-5 rounded-xl text-center font-bold hover:scale-105 transition shadow-lg">
-      APC
-    </div>
-
-    <div className="bg-gradient-to-r from-pink-600 to-pink-800 p-5 rounded-xl text-center font-bold hover:scale-105 transition shadow-lg">
-      Samsung
-    </div>
-
-    <div className="bg-gradient-to-r from-teal-600 to-teal-800 p-5 rounded-xl text-center font-bold hover:scale-105 transition shadow-lg">
-      Seagate
-    </div>
-
-    <div className="bg-gradient-to-r from-red-500 to-red-700 p-5 rounded-xl text-center font-bold hover:scale-105 transition shadow-lg">
-      Canon
-    </div>
-
-    <div className="bg-gradient-to-r from-blue-500 to-blue-700 p-5 rounded-xl text-center font-bold hover:scale-105 transition shadow-lg">
-      Epson
-    </div>
-
-    <div className="bg-gradient-to-r from-violet-600 to-violet-800 p-5 rounded-xl text-center font-bold hover:scale-105 transition shadow-lg">
-      Brother
-    </div>
-
-    <div className="bg-gradient-to-r from-green-500 to-green-700 p-5 rounded-xl text-center font-bold hover:scale-105 transition shadow-lg">
-      Logitech
-    </div>
-
-    <div className="bg-gradient-to-r from-sky-600 to-sky-800 p-5 rounded-xl text-center font-bold hover:scale-105 transition shadow-lg">
-      D-Link
-    </div>
-
+    {[
+      { logo: dell, name: "Dell" },
+      { logo: hp, name: "HP" },
+      { logo: lenovo, name: "Lenovo" },
+      { logo: cisco, name: "Cisco" },
+      { logo: fortinet, name: "Fortinet" },
+      { logo: mikrotik, name: "MikroTik" },
+      { logo: ubiquiti, name: "Ubiquiti" },
+      { logo: apc, name: "APC" },
+      { logo: samsung, name: "Samsung" },
+      { logo: canon, name: "Canon" },
+      { logo: epson, name: "Epson" },
+      { logo: logitech, name: "Logitech" },
+      { logo: dlink, name: "D-Link" },
+      { logo: intel, name: "Intel" },
+      { logo: kingston, name: "Kingston" }
+    ].map((brand) => (
+      <div
+        key={brand.name}
+        className="bg-white rounded-xl p-5 flex items-center justify-center hover:scale-110 transition duration-300 shadow-lg"
+      >
+        <img
+          src={brand.logo}
+          alt={brand.name}
+          className="h-12 object-contain"
+        />
+      </div>
+    ))}
   </div>
 </section>
 </section>
