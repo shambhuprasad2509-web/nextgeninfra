@@ -14,6 +14,7 @@ import logitech from "./assets/brands/logitech.png";
 import dlink from "./assets/brands/dlink.png";
 import intel from "./assets/brands/intel.png";
 import kingston from "./assets/brands/kingston.png";
+
 function App() {
   const services = [
   "Cloud Solutions",
@@ -76,7 +77,7 @@ function App() {
   Bulk Hardware Procurement
 </h1>
 
-    <p className="text-xl text-slate-200 max-w-3xl mx-auto mb-8">
+ <p className="text-xl text-slate-200 max-w-3xl mx-auto mb-8">
   Serving businesses across India, Asia, USA, UK and Europe with
   enterprise IT infrastructure services, cloud solutions,
   networking, cybersecurity, server management and bulk IT hardware procurement.
@@ -132,7 +133,7 @@ function App() {
           ))}
         </div>
       </section>
-<section className="px-8 py-16 bg-slate-900">
+          <section className="px-8 py-16 bg-slate-900">
   <h2 className="text-4xl font-bold text-center mb-10">
     Enterprise IT Hardware Supply
   </h2>
@@ -164,10 +165,9 @@ function App() {
   </div>
 </section>
 
-     <div className="px-8 py-16">
+          <section className="px-8 py-16">
   <h2 className="text-4xl font-bold text-center mb-10">
     IT Products We Supply
-    </div>
   </h2>
 
   <div className="grid md:grid-cols-4 gap-6">
@@ -205,6 +205,8 @@ function App() {
     </div>
 
   </div>
+
+
   <section className="px-8 py-16 bg-slate-900">
   <h2 className="text-4xl font-bold text-center mb-4">
     Brands We Supply
@@ -231,7 +233,7 @@ function App() {
       { logo: logitech, name: "Logitech" },
       { logo: dlink, name: "D-Link" },
       { logo: intel, name: "Intel" },
-      { logo: kingston, name: "Kingston" }
+      { logo: kingston, name: "Kingston" }    
     ].map((brand) => (
       <div
         key={brand.name}
@@ -247,6 +249,7 @@ function App() {
   </div>
 </section>
 </section>
+
       {/* About */}
 <section id="about" className="px-8 py-16 bg-slate-900">
   <h2 className="text-4xl font-bold mb-6">
@@ -363,7 +366,7 @@ function App() {
 </a>
       </div>
 
-     <form
+      <form
   action="https://api.web3forms.com/submit"
   method="POST"
   className="space-y-4"
@@ -457,6 +460,7 @@ function App() {
     🚀 Request Bulk Quote
   </button>
 </form>
+
     </div>
   </div>
 </section>
