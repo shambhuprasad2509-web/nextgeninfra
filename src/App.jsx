@@ -219,21 +219,21 @@ function App() {
   <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-6">
 
     {[
-      { logo: dell, name: "dell" },
-      { logo: hp, name: "hp" },
-      { logo: lenovo, name: "lenovo" },
-      { logo: cisco, name: "cisco" },
-      { logo: fortinet, name: "fortinet" },
-      { logo: mikrotik, name: "mikrotik" },
-      { logo: ubiquiti, name: "ubiquiti" },
-      { logo: apc, name: "apc" },
-      { logo: samsung, name: "samsung" },
-      { logo: canon, name: "canon" },
-      { logo: epson, name: "epson" },
-      { logo: logitech, name: "logitech" },
-      { logo: dlink, name: "dlink" },
-      { logo: intel, name: "intel" },
-      { logo: kingston, name: "kingston" }    
+      { logo: dell, name: "dell.png" },
+      { logo: hp, name: "hp.png" },
+      { logo: lenovo, name: "lenovo.png" },
+      { logo: cisco, name: "cisco.png" },
+      { logo: fortinet, name: "fortinet.png" },
+      { logo: mikrotik, name: "mikrotik.png" },
+      { logo: ubiquiti, name: "ubiquiti.png" },
+      { logo: apc, name: "apc.png" },
+      { logo: samsung, name: "samsung.png" },
+      { logo: canon, name: "canon.png" },
+      { logo: epson, name: "epson.png" },
+      { logo: logitech, name: "logitech.png" },
+      { logo: dlink, name: "dlink.png" },
+      { logo: intel, name: "intel.png" },
+      { logo: kingston, name: "kingston.png" }    
     ].map((brand) => (
       <div
         key={brand.name}
